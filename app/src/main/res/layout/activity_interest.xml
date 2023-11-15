@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.InterestActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/bg_light_grey"
+        android:src="@drawable/interest"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+
+        <Button
+            android:id="@+id/Programming"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Programming"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Health"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Health"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Programming"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Sports"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Sports"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Health"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Acting"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Acting"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Research"
+            app:layout_constraintTop_toBottomOf="@+id/Anime" />
+
+        <Button
+            android:id="@+id/Dancing"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Dancing"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Programming" />
+
+        <Button
+            android:id="@+id/Singing"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Singing"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Dancing"
+            app:layout_constraintTop_toBottomOf="@+id/Health" />
+
+        <Button
+            android:id="@+id/Yoga"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Yoga"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Singing"
+            app:layout_constraintTop_toBottomOf="@+id/Sports" />
+
+        <Button
+            android:id="@+id/Blogging"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blogging"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Acting"
+            app:layout_constraintTop_toBottomOf="@+id/Anime" />
+
+        <Button
+            android:id="@+id/Art"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Art"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Dancing" />
+
+        <Button
+            android:id="@+id/Movies"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Movies"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Art"
+            app:layout_constraintTop_toBottomOf="@+id/Singing" />
+
+        <Button
+            android:id="@+id/Drawing"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Drawing"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Movies"
+            app:layout_constraintTop_toBottomOf="@+id/Yoga" />
+
+        <Button
+            android:id="@+id/Music"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Music"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Blogging" />
+
+        <Button
+            android:id="@+id/ProblemSolving"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Problem Solving"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Art" />
+
+        <Button
+            android:id="@+id/CP"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="CP"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/ProblemSolving"
+            app:layout_constraintTop_toBottomOf="@+id/Movies" />
+
+        <Button
+            android:id="@+id/Anime"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Anime"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/CP"
+            app:layout_constraintTop_toBottomOf="@+id/Drawing" />
+
+        <Button
+            android:id="@+id/Research"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Research"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Anime" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

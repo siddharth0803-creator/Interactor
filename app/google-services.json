@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "522923353295",
+    "project_id": "interactor-nitrr",
+    "storage_bucket": "interactor-nitrr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522923353295:android:3f3807ddd4e30ffd6143ba",
+        "android_client_info": {
+          "package_name": "com.example.interactor_nitrr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_H4oV8AQaltLVgKe84zi_ZLx3xk-ewAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

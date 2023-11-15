@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Favourite"
+        android:title="Favourite"
+        android:icon="@drawable/star"/>
+
+    <item android:id="@+id/Privacy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/privacy"/>
+
+    <item android:id="@+id/share"
+        android:title="share"
+        android:icon="@drawable/send"/>
+
+</menu>

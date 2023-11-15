@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@id/interactorFragment"
+        android:title="@string/Interact"
+        android:icon="@drawable/interactions"
+        />
+
+    <item android:id="@id/messageFragment"
+        android:title="@string/Message"
+        android:icon="@drawable/messenger"
+        />
+
+    <item android:id="@id/profileFragment"
+        android:title="@string/Profile"
+        android:icon="@drawable/account"
+        />
+
+</menu>
